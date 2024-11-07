@@ -1,6 +1,6 @@
 import { BookRepository } from "../domain/interfaces/BookRepository";
 
-export class GetallBooks {
+export class GetAllBooks {
   constructor(private bookRepository: BookRepository) {}
 
   async execute() {
