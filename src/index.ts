@@ -1,4 +1,7 @@
 import express from "express";
+import dotenv from "dotenv";
+dotenv.config();
+
 import { bookRoutes } from "./interface/routes/bookRoutes";
 import { errorHandler } from "./interface/middleware/errorHandler";
 import { logger } from "./infrastructure/logger";
