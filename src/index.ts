@@ -1,6 +1,7 @@
 import express from "express";
 import { bookRoutes } from "./interface/routes/bookRoutes";
 import { errorHandler } from "./interface/middleware/errorHandler";
+import { logger } from "./infrastructure/logger";
 
 const app = express();
 
@@ -9,5 +10,5 @@ app.use("/api", bookRoutes);
 app.use(errorHandler);
 
 app.listen(3000, () => {
-  console.log("Server is running on port 3000");
+  logger.info("Server is running on port 3000");
 });
