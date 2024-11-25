@@ -2,7 +2,7 @@
 
 This study was implemented using a article link below:
 
-<a href="https://dev.to/dipakahirav/modern-api-development-with-nodejs-express-and-typescript-using-clean-architecture-1m77?ref=dailydev#14-logging-and-monitoring">Modern API Development with NodeJS, Express and TypeScript using clean Architecture</a>
+<a href="https://dev.to/dipakahirav/modern-api-development-with-nodejs-express-and-typescript-using-clean-architecture-1m77">Modern API Development with NodeJS, Express and TypeScript using clean Architecture</a>
 
 
 
